@@ -15,7 +15,7 @@ public class Login extends JFrame{
         setContentPane(loginView);
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setTitle("LOGIN");
-        setSize(500,500);
+        setSize(700,500);
         setVisible(true);
         loginButton.addActionListener(new ActionListener() {
             @Override
